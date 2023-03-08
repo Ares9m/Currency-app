@@ -7,7 +7,9 @@ to run the app locally use cmd command: app_dir/python manage.py runserver
 (default port = 8000)
 
 /home displays html table of every currency
+
 /admin allows to acces the admin panel
+
   superuser login: arek password: admin
 
 API
