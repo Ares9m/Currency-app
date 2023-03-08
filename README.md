@@ -16,13 +16,20 @@ API
 
 /currency allows:
 to GET a list of all the currencys
+
 to POST currency in JSON format, for example: 
+
 }
+
   "name": "currency X",
+  
   "symbol": "XYZ",
+  
   "exchange_rate": 12.345
+  
 }
 
 /currency/{id} allows:
+
 to PUT, DELETE and GET of certain {id} (id/primary key) for example: /currency/1
 
