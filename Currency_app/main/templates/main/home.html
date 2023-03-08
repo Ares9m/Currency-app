@@ -1,0 +1,39 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+<h2 style="text-align: center;">Currency enchange rate:</h2>
+<br>
+<table class="zui-table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Symbol
+            </th>
+            <th>
+                USD enchange rate
+            </th>
+        </tr>
+    </thead>
+    <!-- python for loop -->
+    {% for money in curr %}
+        <tr>
+            <td>
+                {{money.name}}
+            </td>
+            <td>
+                {{money.symbol}}
+            </td>
+            <td>
+                {{money.exchange_rate}}
+            </td>
+        </tr>
+    {% endfor %}
+
+</table>
+
+
+
+{% endblock %}
