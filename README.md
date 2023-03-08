@@ -14,6 +14,7 @@ to run the app locally use the command: app_dir/python manage.py runserver
 API
 
 /currency allows:
+
 to GET a list of all the currencys
 
 to POST currency in JSON format, for example: 
