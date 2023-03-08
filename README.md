@@ -7,7 +7,7 @@ to run the app locally use the command: app_dir/python manage.py runserver
 
 /home displays html table of every currency
 
-/admin allows to acces the admin panel
+/admin allows to access the admin panel
 
   superuser login: arek password: admin
 
