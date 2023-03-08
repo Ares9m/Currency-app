@@ -13,6 +13,7 @@ to run the app locally use cmd command: app_dir/python manage.py runserver
   superuser login: arek password: admin
 
 API
+
 /currency allows:
 to GET a list of all the currencys
 to POST currency in JSON format, for example: 
