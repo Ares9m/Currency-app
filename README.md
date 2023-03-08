@@ -31,5 +31,5 @@ to POST currency in JSON format, for example:
 
 /currency/{id} allows:
 
-to PUT, DELETE and GET of certain {id} (id/primary key) for example: /currency/1
+to PUT, DELETE and GET the currency of certain {id} (id/primary key) for example: /currency/1
 
