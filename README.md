@@ -3,7 +3,7 @@
 This is my first app made in Django.
 For now it displays a set list of currecies and USD echgange rate for each of currencies.
 
-to run the app locally use cmd command: app_dir/python manage.py runserver
+to run the app locally use the command: app_dir/python manage.py runserver
 
 /home displays html table of every currency
 
