@@ -1,7 +1,7 @@
 # Currency-app
 
-This is my first app made in Django
-For now it displays a set list of currecies and USD echgange rate for each of currencies
+This is my first app made in Django.
+For now it displays a set list of currecies and USD echgange rate for each of currencies.
 
 to run the app locally use cmd command: app_dir/python manage.py runserver
 (default port = 8000)
